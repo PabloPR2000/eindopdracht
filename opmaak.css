@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+.header {
+    padding: 20px;
+    background-image: url(https://preview.redd.it/tzcgad59dhk21.png?width=960&crop=smart&auto=webp&s=b2f663b84703d9fab1fca987b0eb07b27392a85c);
+    color: white;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+      width: 100%;
+  }
+}
+table.contentupdates {
+  border-style: solid;
+  border-collapse: collapse;
+  border-color: silver;
+  background-color: #771617;
+  color: #ffcc66;
+}
+img {
+  border: 4px maroon double;
+  border-radius: 20px 0px 20px 0px;
+  text-align: justify;
+  margin: 4% 0 4% 0;
+}
